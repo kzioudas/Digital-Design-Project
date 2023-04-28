@@ -1,0 +1,9 @@
+|ea01m02e02JK
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+SET => inst.PRESET
+CLR => inst.ACLR
+K => inst.IN0
+J => inst.IN1
+CLK => inst.CLK
+
+

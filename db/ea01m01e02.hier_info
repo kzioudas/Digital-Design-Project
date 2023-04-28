@@ -1,0 +1,14 @@
+|ea01m01e02
+Y <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst.IN0
+A1 => inst10.IN0
+A1 => inst7.IN1
+A1 => inst8.IN1
+A0 => inst11.IN0
+A0 => inst8.IN2
+A0 => inst6.IN2
+I2 => inst7.IN0
+I3 => inst8.IN0
+I1 => inst6.IN0
+
+
