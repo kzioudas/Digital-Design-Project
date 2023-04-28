@@ -1,0 +1,256 @@
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+Date: 05/23/2018 01:06:01
+Analysis Type: slack
+Compiler Settings: ea05
+Device: EP2C35F672C6
+
+tpd
+--------------------------------------------------------------------------------------
+tpd
+--------------------------------------------------------------------------------------
+Path Number        : 1
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.912 ns
+From               : B[1]
+To                 : COUT
+
+Path Number        : 2
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.859 ns
+From               : A[2]
+To                 : COUT
+
+Path Number        : 3
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.748 ns
+From               : B[1]
+To                 : F[3]
+
+Path Number        : 4
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.708 ns
+From               : A[1]
+To                 : COUT
+
+Path Number        : 5
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.695 ns
+From               : A[2]
+To                 : F[3]
+
+Path Number        : 6
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.666 ns
+From               : B[2]
+To                 : COUT
+
+Path Number        : 7
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.600 ns
+From               : B[3]
+To                 : COUT
+
+Path Number        : 8
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.591 ns
+From               : A[3]
+To                 : COUT
+
+Path Number        : 9
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.544 ns
+From               : A[1]
+To                 : F[3]
+
+Path Number        : 10
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.535 ns
+From               : B[1]
+To                 : F[2]
+
+Path Number        : 11
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.502 ns
+From               : B[2]
+To                 : F[3]
+
+Path Number        : 12
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.331 ns
+From               : A[1]
+To                 : F[2]
+
+Path Number        : 13
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.320 ns
+From               : B[1]
+To                 : F[1]
+
+Path Number        : 14
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.170 ns
+From               : A[2]
+To                 : F[2]
+
+Path Number        : 15
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.121 ns
+From               : B[3]
+To                 : F[3]
+
+Path Number        : 16
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.117 ns
+From               : A[1]
+To                 : F[1]
+
+Path Number        : 17
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 10.111 ns
+From               : A[3]
+To                 : F[3]
+
+Path Number        : 18
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 9.974 ns
+From               : B[2]
+To                 : F[2]
+
+Path Number        : 19
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 9.691 ns
+From               : CTRL
+To                 : F[0]
+
+Path Number        : 20
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 9.405 ns
+From               : CTRL
+To                 : COUT
+
+Path Number        : 21
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 9.199 ns
+From               : CTRL
+To                 : F[1]
+
+Path Number        : 22
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 9.169 ns
+From               : CTRL
+To                 : F[3]
+
+Path Number        : 23
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 9.167 ns
+From               : CTRL
+To                 : F[2]
+
+Path Number        : 24
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.549 ns
+From               : A[0]
+To                 : COUT
+
+Path Number        : 25
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.470 ns
+From               : B[0]
+To                 : COUT
+
+Path Number        : 26
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.385 ns
+From               : A[0]
+To                 : F[3]
+
+Path Number        : 27
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.306 ns
+From               : B[0]
+To                 : F[3]
+
+Path Number        : 28
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.273 ns
+From               : A[0]
+To                 : F[1]
+
+Path Number        : 29
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.194 ns
+From               : B[0]
+To                 : F[1]
+
+Path Number        : 30
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.172 ns
+From               : A[0]
+To                 : F[2]
+
+Path Number        : 31
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 7.093 ns
+From               : B[0]
+To                 : F[2]
+
+Path Number        : 32
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 6.970 ns
+From               : A[0]
+To                 : F[0]
+
+Path Number        : 33
+Slack              : N/A
+Required P2P Time  : None
+Actual P2P Time    : 6.887 ns
+From               : B[0]
+To                 : F[0]
+
+--------------------------------------------------------------------------------------
+

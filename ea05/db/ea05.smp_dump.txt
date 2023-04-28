@@ -1,0 +1,6 @@
+
+State Machine - |Multiplier|CtrlLogic:uCTRL|state
+Name state.HOLD state.MULT state.LOAD 
+state.LOAD 0 0 0 
+state.MULT 0 1 1 
+state.HOLD 1 0 1 

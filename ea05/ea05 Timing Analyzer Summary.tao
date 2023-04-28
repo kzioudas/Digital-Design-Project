@@ -1,0 +1,80 @@
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+Date: 05/24/2018 22:20:56
+Analysis Type: slack
+Compiler Settings: ea05
+Device: EP2C35F672C6
+
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+Path Number    : 1
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 1.204 ns
+From           : Rst
+To             : CtrlLogic:uCTRL|m_state
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Path Number    : 2
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.862 ns
+From           : Reg:uL|F[2]
+To             : Low[2]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Path Number    : 3
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.148 ns
+From           : SI
+To             : Reg:uB|F[3]
+From Clock     : --
+To Clock       : CLK
+Failed Paths   : 0
+
+Path Number    : 4
+Type           : Clock Setup: 'CLK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 379.79 MHz ( period = 2.633 ns )
+From           : CtrlLogic:uCTRL|count[3]
+To             : CtrlLogic:uCTRL|count[1]
+From Clock     : CLK
+To Clock       : CLK
+Failed Paths   : 0
+
+Path Number    : 5
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
